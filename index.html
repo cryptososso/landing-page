@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+   <title>Nubi-Art | Art for everyone</title>
+</head>
+<body>
+   <header class="main-header">
+      <div class="container flex-row">
+         <div class="header-logo">
+            <h3>Nubi-Art <span class="bold-text">Modern art for everyone !</span></h3>
+         </div>
+         <ul class="main-list">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Artists</a></li>
+            <li><a href="#">Gallery</a></li>
+         </ul>
+      </div>
+   </header>
+
+   <section class="search-bar">
+       <div class="container">
+          <div id="search">
+             <label for="searchInput">Search Artist</label>
+             <input id="searchInput" type="text" >
+          </div>
+
+          <ul id="result">
+             <li class="name"><a href="">Matze Bob</a></li>
+             <li class="name"><a href="">Georges Pagan</a></li>
+             <li class="name"><a href="">Nicola Powys</a></li>
+             <li class="name"><a href="">Philipp Potocnik</a></li>
+             <li class="name"><a href="">John Tyson</a></li>
+             <li class="name"><a href=""> Steve Johnson</a></li>
+          </ul>
+       </div>
+   </section>
+
+   <section class="carousel">
+      <div class="container">
+         <h2>Top masterpices</h2>
+         <div class="carousel-item carousel-item-visible">
+            <img src="./img/Antibes.jfif" alt="Antibes">
+            <div class="text">Antibes</div>
+         </div>
+         <div class="carousel-item">
+            <img src="./img/beautiful.jfif" alt="beautiful">
+            <div class="text">Beautiful</div>
+         </div>
+         <div class="carousel-item">
+            <img src="./img/fractures-mind.jfif" alt="Fractures-mind">
+            <div class="text">Fractures Mind</div>
+         </div>
+         <div class="carousel-item">
+            <img src="./img/Gratifi-on-wall.jfif" alt="Gratifi-on-wall">
+            <div class="text">Grafiti on Wall</div>
+         </div>
+         <div class="carousel-item">
+            <img src="./img/The-Dirty-Rabbit.jfif" alt="The Dirty Rabbit">
+            <div class="text">The Dirty Rabbit</div>
+         </div>
+      </div>
+   </section>
+
+ <div class="carousel-nav">
+         <div class="container text-center">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+         </div>
+   </div>
+
+   <section class="overlay">
+
+      <div class="container">
+
+         <div class="modal">
+            <form>
+             <div class="form-control">
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="Name">
+             </div>
+             <div class="form-control">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="email">
+             </div>
+             <button class="btn-submit">Submit</button>
+            </form>
+            <div class="img-art">
+               <img src="./img/wallpaper.jfif" alt="">
+            </div>
+         </div>
+
+      </div>
+
+   </section>
+
+   <div class="container text-center">
+   <h2 class="subscribe-msg">Subscribe to receive news from the modern art scene !</h2>
+   <h2 class="submit-msg"></h2>
+   <button class="btn-subscribe">Subscribe</button>
+   </div>
+
+   <footer>
+      <div class="container">
+      <p>&copy; Nubi-Art 2021</p>
+     </div> 
+   </footer>
+
+   <script src="index.js"></script>
+</body>
+</html>
